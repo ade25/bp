@@ -1,20 +1,21 @@
-Introduction
-============
+# Introduction
 
-This is a blueprint buildout to kickstart new Plone CMS projects.
+## Blueprint buildout to kickstart new Plone or Pyramid projects
 
-This buildout should not be used directly, but is best downloaded
-and cloned to a new and dedicated project repository. When in doubt you can
-always return to the blueprint/boilerplate buildout for enhancements and
-inspiration concerning the latest "best practice" of ade25 Plone
-development and buildout scaffolding in general.
+This buildout is best downloaded and cloned to a new and dedicated project
+repository.
+
+When in doubt you can always return to the blueprint/boilerplate buildout for
+enhancements and inspiration concerning the latest "best practice" of
+ade25 development and buildout scaffolding in general.
 
 
-Buildout
---------
+## Buildout
 
 This buildout is intended to be used via the development profile to provide
-a ready to work on setup:
+a ready to work on setup. Asuming you have cloned the buildout to a new
+repository called 'my_project' the relevant steps to get started with a new
+development environment would be:
 
 ``` bash
 $ virtualenv-2.7 my_project
@@ -25,16 +26,16 @@ $ python bootstrap.py -c development.cfg
 $ bin/buildout -Nc development.cfg
 ```
 
-Diazo Theme development
-=======================
+*Note:* the hard requirement for Python 2.7.x for Plone development can of
+course be skipped for Pyramid
 
-The current version of this buildout already includes a Diazo theme packaged
-to be used via *plone.app.theming* located in the '${buildout:directory}/src'
-directory and initialized via *mr.developer*. Just rename it and you should
-be done.
+## Development Packages
 
-A more developer friendly approach is already in the works - watch out for 
-`ade25.bobtemplates` comming soon to a buildout near you...
+Project specific code is usually added as Python development eggs in the 'src'
+directory and added to the auto-checkout part of *mr.developer*.
+
+
+### Diazo Theme development
 
 In order to start theme resource development it is required to initialize a
 directory via yeoman generator. Follow the instructions found here:
