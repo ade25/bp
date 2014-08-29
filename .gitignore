@@ -12,6 +12,7 @@
 .installed.cfg
 .mr.developer.cfg
 .svn
+ba
 bin
 bower_components
 build
@@ -21,9 +22,9 @@ dist
 downloads
 eggs
 etc/**/*
-ba
 fabfile.py
 fake-eggs
+known-good-versions.cfg
 parts
 src/ade25.*
 src/plone.*
