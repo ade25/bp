@@ -26,6 +26,7 @@ fabfile.py
 fake-eggs
 known-good-versions.cfg
 parts
+src/bobtemplates.*
 src/ade25.*
 src/plone.*
 src/sauna.reload
