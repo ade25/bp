@@ -9,6 +9,7 @@ When in doubt you can always return to the blueprint/boilerplate buildout for
 enhancements and inspiration concerning the latest "best practice" of
 ade25 development and buildout scaffolding in general.
 
+Note: this project is slowly developing into a basic development environment and is therefore a moving target. Do not use this new setup in projects yet.
 
 ## Buildout
 
