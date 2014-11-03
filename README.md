@@ -1,5 +1,13 @@
 # Introduction
 
+## DEPRECATED
+
+### This blueprint has been discontinued.
+
+It is recommended to use the **mr.bob** generator provided by `bobtemplates.ade25`.
+
+
+
 ## Blueprint buildout to kickstart new Plone or Pyramid projects
 
 This buildout is best downloaded and cloned to a new and dedicated project
